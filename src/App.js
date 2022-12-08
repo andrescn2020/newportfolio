@@ -8,14 +8,14 @@ import Footer from "../src/components/Footer/Footer.jsx";
 
 function App() {
   return (
-    <div >
+    <div style={{ width: "fit-content" }}>
       <Navbar />
       <Hero />
-      {/*<Projects />
-    <Aboutme />
-    <Technologies />
-    <Contact />
-    <Footer /> */}
+      <Projects />
+      <Aboutme />
+      <Technologies />
+      <Contact />
+      <Footer />
     </div >
   );
 }

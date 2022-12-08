@@ -1,0 +1,99 @@
+.app__aboutme {
+    width: 80%;
+    height: 60vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.app__aboutme-firstContainer {
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__aboutme-firstContainer h2 {
+    font-family: 'Anybody', cursive;
+    font-weight: 400;
+    margin: 0;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+.app__aboutme-image-container img {
+    margin: 0;
+    margin-top: 1rem;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 9999px;
+}
+
+.app__aboutme-icons-container {
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.app__aboutme-icons-container a svg{
+    width: 5rem;
+    height: 5rem;
+
+}
+
+.app__aboutme-secondContainer {
+    height: 100%;
+    display: grid;
+    justify-content: start;
+    align-items: baseline;
+    margin: 0;
+    margin-left: 5%;
+    color: white;
+}
+
+.app__aboutme-secondContainer h1 {
+    bottom: 1px solid red;
+    margin: 0;
+    font-size: 5rem;
+
+}
+
+.app__aboutme-secondContainer p {
+    align-self: flex-end;
+    margin: 0;
+    width: 100%;
+    color: white;
+    font-family: 'Anybody', cursive;
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .app__aboutme {
+        width: 96%;
+        height: 100vh;
+        margin-left: 2%;
+        margin-right: 2%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+        margin-bottom: 30%;
+    }
+    .app__aboutme-secondContainer {
+        margin-top: 5%;
+    }
+    .app__aboutme-secondContainer p {
+        font-size: 2rem;
+    }
+    .app__aboutme-firstContainer {
+        row-gap: 2rem;
+    }
+}
