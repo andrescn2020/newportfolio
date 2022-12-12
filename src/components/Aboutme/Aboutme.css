@@ -91,7 +91,9 @@
         margin-top: 5%;
     }
     .app__aboutme-secondContainer p {
+        align-self: center;
         font-size: 2rem;
+        width: 90%;
     }
     .app__aboutme-firstContainer {
         row-gap: 2rem;

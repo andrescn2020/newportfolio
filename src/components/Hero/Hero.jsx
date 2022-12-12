@@ -3,7 +3,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <header className="app__hero">
+    <header id="hero" className="app__hero">
       <div className="app__hero-container">
         <img className="app__hero-img" src={HeroText} alt="hero logo" /> 
         <h2 className="app__hero-text">FULL STACK DEVELOPER</h2>
