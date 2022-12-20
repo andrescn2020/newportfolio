@@ -165,19 +165,19 @@
 
 @media screen and (max-width: 650px) {
     .app__navbar-hamburguer {
-        width: 40.5rem;
+        width: 100vw;
     }
 
     .cross-icon {
         position: relative;
-        left: 60%;
+        left: 52%;
         margin-right: 0;
         margin-left: 0;
     }
 
     .hamburguer-icon {
         position: relative;
-        left: 60%;
+        left: 52%;
         margin-right: 0;
         margin-left: 0;
     }

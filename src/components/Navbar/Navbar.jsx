@@ -26,16 +26,13 @@ function Navbar() {
       return (
         <div className="app__navbar-hamburguer">
           <ul className="app__navbar-hamburguer-list">
-            <a href="#home">
-              <li>HOME</li>
-            </a>
             <a href="#proyectos">
               <li>PROYECTOS</li>
             </a>
             <a href="#sobremi">
               <li>SOBRE MÍ</li>
             </a>
-            <a href="contacto">
+            <a href="#contacto">
               <li>CONTACTO</li>
             </a>
             <a href="https://github.com/andrescn2020">
@@ -67,7 +64,7 @@ function Navbar() {
             <a href="#sobremi">
               <li>SOBRE MÍ</li>
             </a>
-            <a href="contacto">
+            <a href="#contacto">
               <li>CONTACTO</li>
             </a>
           </ul>
@@ -88,16 +85,13 @@ function Navbar() {
       {menu &&
         <div className="app__navbar-hamburguer">
           <ul className="app__navbar-hamburguer-list">
-            <a href="#home">
-              <li>HOME</li>
-            </a>
             <a href="#proyectos">
               <li>PROYECTOS</li>
             </a>
             <a href="#sobremi">
               <li>SOBRE MÍ</li>
             </a>
-            <a href="contacto">
+            <a href="#contacto">
               <li>CONTACTO</li>
             </a>
             <div className="app__navbar-svg-container">

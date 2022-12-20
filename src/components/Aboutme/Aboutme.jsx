@@ -21,7 +21,12 @@ const Aboutme = () => {
       </div>
       <div className="app__aboutme-secondContainer">
         <h1>Sobre Mí</h1>
-        <p>Mi nombre es Andrés Capano y soy un Full Stack Developer con capacidad de realizar proyectos complejos con un equipo al valerse de herramientas como las metodologías ágiles, git, entre otras. Siempre trabajando con la idea de que sean escalables, eficientes y moduralizables para así poder construir de una manera más limpia y ordenada.</p>
+        <p>Mi nombre es Andrés Capano
+          y soy un Full Stack
+          Developer
+          con capacidad de realizar proyectos complejos con
+          un equipo al valerse de herramientas como las metodologías ágiles y Git. Siempre
+          en constante aprendizaje y trabajando para dar lo mejor de mí. Abierto a nuevas ideas y formas de crear software.</p>
       </div>
     </div>
   )

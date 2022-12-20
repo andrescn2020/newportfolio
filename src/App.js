@@ -8,7 +8,7 @@ import Footer from "../src/components/Footer/Footer.jsx";
 
 function App() {
   return (
-    <div style={{ width: "fit-content" }}>
+    <div>
       <Navbar />
       <Hero />
       <Projects />

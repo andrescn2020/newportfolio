@@ -6,7 +6,7 @@ export const proyectos = [
         image: '/images/CardImage.PNG',
         tags: ["React", "CSS", "Figma"],
         deployPage: "",
-        github: ""
+        github: "https://github.com/andrescn2020/newportfolio"
 
     },
     {
@@ -24,7 +24,7 @@ export const proyectos = [
         description: "En este proyecto, junto a un equipo, desarrollamos un e-commerce para la venta de celulares.",
         image: '/images/Smartify.PNG',
         tags: ['React', "Firebase", "Express", "SQL", "Node", "Bootstrap"],
-        deployPage: 'https://smartify.vercel.app/',
+        deployPage: '',
         github: 'https://github.com/FinalProyectHenry25a/FinalProyect25a'
     },
     {
@@ -33,7 +33,7 @@ export const proyectos = [
         description: "Aplicación para conseguir información detallada de videojuegos.",
         image: '/images/Videogames.PNG',
         tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
-        deployPage: 'https://videogames-virid.vercel.app',
+        deployPage: '',
         github: 'https://github.com/andrescn2020/Videogames'
     },
     {

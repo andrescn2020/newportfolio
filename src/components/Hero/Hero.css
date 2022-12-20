@@ -44,6 +44,12 @@
     cursor: pointer;
 }
 
+.app__hero-link button:hover {
+    cursor: pointer;
+    background: #202020;
+    color: white;
+}
+
 @media screen and (max-width: 750px) {
     .app__hero-container {
         margin-top: 20%;
