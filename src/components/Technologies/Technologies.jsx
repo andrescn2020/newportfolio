@@ -3,7 +3,7 @@ import "./Technologies.css";
 
 const Technologies = () => {
   return (
-    <div>
+    <div id="tecnologias">
       <div className="app__technologies-title">
         <h1>Tecnologías</h1>
       </div>

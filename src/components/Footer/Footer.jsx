@@ -25,8 +25,8 @@ const Footer = () => {
         <a href="#sobremi">
           <p>Sobre Mí</p>
         </a>
-        <a href="#contacto">
-          <p>Contacto</p>
+        <a href="#tecnologias">
+          <p>Tecnologías</p>
         </a>
       </div>
       <div className="app__footer-four-column">
