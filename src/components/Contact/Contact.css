@@ -111,13 +111,15 @@
         width: 100vw;
         gap: 0.5rem;
     }
+
     .app-form-control-message {
         width: 81vw;
     }
 }
 
 @media screen and (max-width: 650px) {
-    .app-form-group-name {
+
+    /* .app-form-group-name {
         margin-left: 0rem;
         width: 100vw;
     }
@@ -134,12 +136,28 @@
     }
     .app__form-inputs {
         display: grid;
-        width: 100%;
+        width: 90%;
+        gap: 1rem;
     }
     .app-form-button {
         margin-top: -3.5rem;
-    }
-    /* .app-form-control {
-        padding-left: 0rem;
     } */
+
+    .app-form-control-message {
+        width: 83vw;
+        margin-left: 0;
+    }
+
+    .app__form-inputs {
+        gap: 1rem;
+        margin-left: -1.75rem;
+    }
+
+    .app__form-title h1 {
+        font-size: 4rem;
+    }
+
+    .app__form-title h2 {
+        font-size: 1.75rem;
+    }
 }

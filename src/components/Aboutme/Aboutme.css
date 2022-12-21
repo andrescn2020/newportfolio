@@ -62,7 +62,6 @@
     bottom: 1px solid red;
     margin: 0;
     font-size: 5rem;
-
 }
 
 .app__aboutme-secondContainer p {
@@ -97,5 +96,21 @@
     }
     .app__aboutme-firstContainer {
         row-gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__aboutme-secondContainer  {
+        margin-left: 2%;
+    }
+    .app__aboutme-secondContainer h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 4rem;
+    }
+    .app__aboutme-secondContainer p {
+        align-self: center;
+        font-size: 1.5rem;
+        width: 100%;
     }
 }

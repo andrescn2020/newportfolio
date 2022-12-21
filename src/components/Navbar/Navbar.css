@@ -173,6 +173,7 @@
         left: 52%;
         margin-right: 0;
         margin-left: 0;
+        margin-bottom: 1rem;
     }
 
     .hamburguer-icon {
@@ -180,5 +181,6 @@
         left: 52%;
         margin-right: 0;
         margin-left: 0;
+        margin-bottom: 1rem;
     }
 }
