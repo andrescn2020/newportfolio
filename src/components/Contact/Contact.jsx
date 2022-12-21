@@ -43,13 +43,13 @@ const Contact = () => {
               required: true,
               maxLength: 16
             })} />
-            {errors.nombre ? <p style={{ color: "red" }}>Este campo es obligatorio debe tener un maximo de 16 caracteres</p> : null}
+            {/* {errors.nombre ? <p style={{ color: "red" }}>Este campo es obligatorio debe tener un maximo de 16 caracteres</p> : null} */}
           </div>
           <div className="app-form-group-mail">
             <input className="app-form-control" name='mail' type="text" placeholder="Email" {...register("email", {
               pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/i
             })} />
-            {errors.email ? <p style={{ color: "red" }}>Este campo no cumple con el formato requerido</p> : null}
+            {/* {errors.email ? <p style={{ color: "red" }}>Este campo no cumple con el formato requerido</p> : null} */}
           </div>
         </div>
         <div className="app-form-group-message">
