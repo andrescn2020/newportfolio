@@ -50,5 +50,6 @@
     .app__technologies-title {
         width: 100%;
         font-size: 2rem;
+        margin-top: 15rem;
     }
 }

@@ -34,7 +34,7 @@ const Contact = () => {
     <form id='contacto' className='app__form' onSubmit={handleSubmit(sendEmail)}>
       <div className='app__form-title'>
         <h1>Contacto</h1>
-        <h2>Pongamosnos en contacto!</h2>
+        <h2>No dudes en contactarme!</h2>
       </div>
       <div className='app__form-container'>
         <div className='app__form-inputs'>

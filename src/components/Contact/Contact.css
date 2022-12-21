@@ -30,7 +30,7 @@
 }
 
 .app-form-group-name {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     width: 41%;
 }
 
@@ -106,51 +106,82 @@
     border: 1px solid #202020;
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1350px) {
     .app__form-inputs {
+        justify-content: space-around;
         width: 100vw;
-        gap: 0.5rem;
+        gap: 0rem;
+        margin: 0;
+    }
+
+    .app-form-group-name {
+        margin-left: 0.5%;
+        width: 44%;
+    }
+
+    .app-form-group-mail {
+        width: 44%;
     }
 
     .app-form-control-message {
-        width: 81vw;
+        width: 91.5vw;
+        margin-left: 0rem;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+
+    .app-form-group-name {
+        margin-left: 0.25%;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+    .app-form-group-name {
+        margin-left: 0rem;
+        width: 43%;
+    }
+
+    .app-form-group-mail {
+        width: 43%;
+    }
+
+    .app__form-inputs {
+        gap: 0rem;
+    }
+
+    .app-form-control-message {
+        margin-left: 0rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .app-form-control-message {
+        margin-left: 0.25rem;
     }
 }
 
 @media screen and (max-width: 650px) {
-
-    /* .app-form-group-name {
+    .app-form-control-message {
+        margin-top: 3%;
+        width: 87vw;
         margin-left: 0rem;
-        width: 100vw;
-    }
-    .app-form-group-mail {
-        width: 100vw;
-    }
-    .app-form-control-message {
-        margin-top: -2.5rem;
-        width: 100vw;
-    }
-    .app-form-group-message {
-        margin-top: 3rem;
-        width: 100%;
-    }
-    .app__form-inputs {
-        display: grid;
-        width: 90%;
-        gap: 1rem;
-    }
-    .app-form-button {
-        margin-top: -3.5rem;
-    } */
-
-    .app-form-control-message {
-        width: 83vw;
-        margin-left: 0;
     }
 
     .app__form-inputs {
-        gap: 1rem;
+        justify-content: center;
+        gap: 1.5rem;
         margin-left: -1.75rem;
+    }
+
+    .app-form-group-name {
+        margin-left: 1rem;
+        width: 42%;
+    }
+
+    .app-form-group-mail {
+        width: 42%;
     }
 
     .app__form-title h1 {
@@ -159,5 +190,9 @@
 
     .app__form-title h2 {
         font-size: 1.75rem;
+    }
+
+    .app-form-button {
+        margin-top: -2rem;
     }
 }

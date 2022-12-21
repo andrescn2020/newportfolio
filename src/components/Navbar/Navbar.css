@@ -84,6 +84,7 @@
         width: 100%;
         height: 76%;
         display: grid;
+        margin-top: 2.5%;
     }
 
     .app__navbar-hamburguer-list {
@@ -146,6 +147,7 @@
         color: rgb(236, 228, 228);
         width: 5rem;
         height: 6rem;
+        margin-bottom: 0.75rem;
     }
 
     .hamburguer-icon {
@@ -154,6 +156,7 @@
         color: rgb(236, 228, 228);
         width: 5rem;
         height: 5rem;
+        margin-bottom: 0.75rem;
     }
 }
 
@@ -165,15 +168,17 @@
 
 @media screen and (max-width: 650px) {
     .app__navbar-hamburguer {
+        margin-top: 6%;
         width: 100vw;
     }
 
     .cross-icon {
         position: relative;
+        height: 5rem;
         left: 52%;
         margin-right: 0;
         margin-left: 0;
-        margin-bottom: 1rem;
+        margin-bottom: 0.75rem;
     }
 
     .hamburguer-icon {
@@ -181,6 +186,6 @@
         left: 52%;
         margin-right: 0;
         margin-left: 0;
-        margin-bottom: 1rem;
+        margin-bottom: 0.75rem;
     }
 }
