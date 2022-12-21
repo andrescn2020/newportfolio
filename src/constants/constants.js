@@ -69,6 +69,6 @@ export const css = "/images/CSSIcon.png";
 export const js = "/images/JS.png";
 export const firebase = "/images/Firebase.png";
 export const html = "/images/HTML.png";
-export const typescript = "/images/Typescript.png";
+export const typescript = "/images/typescript.png";
 export const sequelize = "/images/Sequelize.png";
 export const nextjs = "/images/NextjsIcon.png";
