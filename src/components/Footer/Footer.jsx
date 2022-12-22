@@ -15,7 +15,7 @@ const Footer = () => {
         <p>Buenos Aires, Argentina</p>
       </div>
       <div className="app__footer-second-column">
-        <h2>Paginas</h2>
+        <h2>Menu</h2>
         <a href="#hero">
           <p>Home</p>
         </a>
