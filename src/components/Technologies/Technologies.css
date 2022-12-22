@@ -53,3 +53,15 @@
         margin-top: 15rem;
     }
 }
+
+@media screen and (max-height: 660px) {
+    .app__technologies-title {
+        margin-top: 25rem;
+    }
+}
+
+@media screen and (max-height: 540px) {
+    .app__technologies-title {
+        margin-top: 30rem;
+    }
+}
