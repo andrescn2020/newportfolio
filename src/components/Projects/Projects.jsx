@@ -26,10 +26,10 @@ const Projects = () => {
                 ))}
               </div>
               <div>
-                {project.github && <a href={project.github}>
+                {project.github && <a href={project.github} target="_blank" rel="noopener noreferrer">
                   <button>Código</button>
                 </a>}
-                {project.deployPage && <a href={project.deployPage}>
+                {project.deployPage && <a href={project.deployPage} target="_blank" rel="noopener noreferrer">
                   <button>Página</button>
                 </a>}
               </div>
