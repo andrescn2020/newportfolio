@@ -1,7 +1,11 @@
 import { profileImage } from "../../constants/constants.js";
+import { useSelector } from 'react-redux';
 import "./Aboutme.css";
 
 const Aboutme = () => {
+
+  const language = useSelector((state) => state.language);
+
   return (
     <div id="sobremi" className="app__aboutme">
       <div className="app__aboutme-firstContainer">
@@ -20,13 +24,12 @@ const Aboutme = () => {
 
       </div>
       <div className="app__aboutme-secondContainer">
-        <h1>Sobre Mí</h1>
-        <p>Mi nombre es Andrés Capano
-          y soy un Full Stack
-          Developer
-          con capacidad de realizar proyectos complejos con
-          un equipo al valerse de herramientas como las metodologías ágiles y Git. Siempre
-          en constante aprendizaje y trabajando para dar lo mejor de mí. Abierto a nuevas ideas y formas de crear software.</p>
+        <h1>{language === "en" ? "About Me" : "Sobre Mí"}</h1>
+        <p>
+          {language === "en" 
+          ? "My name is Andres Capano and I am a Full Stack Developer with the ability to perform complex projects with a team using tools such as agile methodologies and Git. Always in constant learning and working to give the best of me. Open to new ideas and ways of creating software."
+          : "Mi nombre es Andrés Capano y soy un Full Stack Developer con capacidad de realizar proyectos complejos con un equipo al valerse de herramientas como las metodologías ágiles y Git. Siempre en constante aprendizaje y trabajando para dar lo mejor de mí. Abierto a nuevas ideas y formas de crear software."}
+        </p>
       </div>
     </div>
   )

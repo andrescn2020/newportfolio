@@ -1,11 +1,15 @@
 import { react, nextjs, typescript, sequelize, redux, aws, nodejs, postgresql, mongodb, figma, git, css, js, html, firebase } from "../../constants/constants.js";
+import { useSelector } from 'react-redux';
 import "./Technologies.css";
 
 const Technologies = () => {
+
+  const language = useSelector((state) => state.language);
+
   return (
     <div id="tecnologias">
       <div className="app__technologies-title">
-        <h1>Tecnologías</h1>
+        <h1>{language === "en" ? "Tecnologies" : "Tecnologías"}</h1>
       </div>
       <div className="app__technologies-container">
         <div className="app__technologies-icon-container">

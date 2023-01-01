@@ -1,6 +1,10 @@
+import { useSelector } from 'react-redux';
 import "./Footer.css";
 
 const Footer = () => {
+
+  const language = useSelector((state) => state.language);
+
   return (
     <div className="app__footer">
       <div className="app__footer-first-column">
@@ -8,7 +12,7 @@ const Footer = () => {
         <h2>Full Stack Developer</h2>
       </div>
       <div className="app__footer-third-column">
-        <h2>Contacto</h2>
+        <h2>{language === "en" ? "Contact" : "Contacto"}</h2>
         <a href="mailto:andrescn_2022@outlook.com">
           <p>andrescn_2022@outlook.com</p>
         </a>
@@ -20,13 +24,13 @@ const Footer = () => {
           <p>Home</p>
         </a>
         <a href="#proyectos">
-          <p>Proyectos</p>
+          <p>{language === "en" ? "Projects" : "Proyectos"}</p>
         </a>
         <a href="#sobremi">
-          <p>Sobre Mí</p>
+          <p>{language === "en" ? "About Me" : "Sobre Mí"}</p>
         </a>
         <a href="#tecnologias">
-          <p>Tecnologías</p>
+          <p>{language === "en" ? "Tecnologies" : "Tecnologías"}</p>
         </a>
       </div>
       <div className="app__footer-four-column">
