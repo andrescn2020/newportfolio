@@ -166,7 +166,7 @@
     transform: skewX(-45deg) scale(1, 1);
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1550px) {
     .app__projects-card-container {
         width: 40vw;
     }
