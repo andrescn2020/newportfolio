@@ -107,7 +107,7 @@
     color: white;
 }
 
-.app__projects-text-container div a button {
+/* .app__projects-text-container div a button {
     margin: 1rem;
     font-size: 1.5rem;
     width: 12rem;
@@ -125,6 +125,51 @@
     cursor: pointer;
     background: #202020;
     color: white;
+} */
+
+.app__projects-text-container div a button {
+    margin: 1rem;
+    font-size: 1.5rem;
+    width: 12rem;
+    height: 3rem;
+    border-width: 0.1rem;
+    color: #202020;
+    border-color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+    background: #FFDC53;
+
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.app__projects-text-container div a button:hover {
+    cursor: pointer;
+    background: #202020;
+    color: white;
+    border: 1px solid white;
+}
+
+.app__projects-text-container div a button:after {
+    content: "";
+    background: #202020;
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+}
+
+.app__projects-text-container div a button:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
 }
 
 @media screen and (max-width: 1050px) {
@@ -148,6 +193,7 @@
         margin: 0.25rem;
         color: white;
     }
+
     .app__projects-text-container div a button {
         margin: 0.5rem;
         font-size: 1.25rem;
@@ -172,7 +218,7 @@
     }
 
     .app__projects-card-container {
-       width: 90vw;
+        width: 90vw;
     }
 
 }

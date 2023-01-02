@@ -38,6 +38,10 @@
     text-decoration: none;
 }
 
+.app__footer-second-column a:hover {
+    color: #FFDC53;
+}
+
 .app__footer-third-column {
     height: 20vh;
     display: grid;

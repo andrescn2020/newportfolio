@@ -10,6 +10,7 @@
     position: fixed;
     top: 90%;
     left: 2.5%;
+    transition: .5s;
 }
 
 .traduction-button span {
