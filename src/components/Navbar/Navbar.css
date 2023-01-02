@@ -37,6 +37,7 @@
     margin-right: 3rem;
     text-decoration: none;
     list-style: none;
+    transition: .5s;
 }
 
 .app__navbar-list a:hover {

@@ -36,6 +36,7 @@
     width: 100%;
     height: 2rem;
     text-decoration: none;
+    transition: .5s;
 }
 
 .app__footer-second-column a:hover {
