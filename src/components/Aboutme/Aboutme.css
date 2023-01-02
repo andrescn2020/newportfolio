@@ -45,7 +45,11 @@
 .app__aboutme-icons-container a svg{
     width: 5rem;
     height: 5rem;
+    transition: .5s;
+}
 
+.app__aboutme-icons-container a svg:hover {
+    transform: scale(1.25);
 }
 
 .app__aboutme-secondContainer {

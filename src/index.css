@@ -5,3 +5,7 @@ body {
     margin: 0;
     font-family: 'Outfit', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}

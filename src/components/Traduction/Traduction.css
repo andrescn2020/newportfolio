@@ -8,7 +8,7 @@
     height: 3rem;
     margin: 1rem;
     position: fixed;
-    top: 90%;
+    top: 87.5%;
     left: 2.5%;
     transition: .5s;
 }
@@ -20,4 +20,5 @@
 .traduction-button:hover {
     cursor: pointer;
     opacity: 0.7;
+    transform: scale(1.25);
 }

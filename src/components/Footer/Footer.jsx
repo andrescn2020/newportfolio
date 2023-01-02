@@ -20,7 +20,7 @@ const Footer = () => {
       </div>
       <div className="app__footer-second-column">
         <h2>Menu</h2>
-        <a href="#hero">
+        <a href="#navbar">
           <p>Home</p>
         </a>
         <a href="#proyectos">

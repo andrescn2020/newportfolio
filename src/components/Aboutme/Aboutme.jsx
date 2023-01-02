@@ -10,7 +10,9 @@ const Aboutme = () => {
     <div id="sobremi" className="app__aboutme">
       <div className="app__aboutme-firstContainer">
         <div className="app__aboutme-image-container">
-          <img src={profileImage} alt="Foto Perfil" />
+          <a href="https://www.linkedin.com/in/andrescapano/" target="_blank" rel="noopener noreferrer">
+            <img src={profileImage} alt="Foto Perfil" />
+          </a>
         </div>
         <h2>Capano Andrés</h2>
         <div className="app__aboutme-icons-container">
@@ -26,9 +28,9 @@ const Aboutme = () => {
       <div className="app__aboutme-secondContainer">
         <h1>{language === "en" ? "About Me" : "Sobre Mí"}</h1>
         <p>
-          {language === "en" 
-          ? "My name is Andres Capano and I am a Full Stack Developer with the ability to perform complex projects with a team using tools such as agile methodologies and Git. Always in constant learning and working to give the best of me. Open to new ideas and ways of creating software."
-          : "Mi nombre es Andrés Capano y soy un Full Stack Developer con capacidad de realizar proyectos complejos con un equipo al valerse de herramientas como las metodologías ágiles y Git. Siempre en constante aprendizaje y trabajando para dar lo mejor de mí. Abierto a nuevas ideas y formas de crear software."}
+          {language === "en"
+            ? "My name is Andres Capano and I am a Full Stack Developer with the ability to perform complex projects with a team using tools such as agile methodologies and Git. Always in constant learning and working to give the best of me. Open to new ideas and ways of creating software."
+            : "Mi nombre es Andrés Capano y soy un Full Stack Developer con capacidad de realizar proyectos complejos con un equipo al valerse de herramientas como las metodologías ágiles y Git. Siempre en constante aprendizaje y trabajando para dar lo mejor de mí. Abierto a nuevas ideas y formas de crear software."}
         </p>
       </div>
     </div>
