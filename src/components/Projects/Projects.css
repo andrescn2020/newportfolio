@@ -31,20 +31,20 @@
 }
 
 .app__projects-card-container {
-    width: 45vw;
+    width: 30vw;
+    height: 75vh;
     transition: all ease-in-out .4s;
     background-color: #202020;
     display: grid;
     justify-content: center;
     align-items: center;
-    border-radius: 2rem;
     box-shadow: 10px 10px 45px -12px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 10px 45px -12px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 45px -12px rgba(0, 0, 0, 0.75);
 }
 
 .app__projects-card-container:hover {
-    transform: scale(1.05) rotate(0.1deg);
+    opacity: 0.95;
 }
 
 .img-container {
@@ -52,20 +52,14 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    border-top-right-radius: 2rem;
-    border-top-left-radius: 2rem;
 }
 
 .app__projects-card-container img {
-    border-top-right-radius: 2rem;
-    border-top-left-radius: 2rem;
     width: 100%;
 }
 
 .app__projects-text-container {
     width: inherit;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
 }
 
 .app__projects-text-container h3 {
@@ -170,6 +164,17 @@
 .app__projects-text-container div a button:hover::after {
     transition: all 0.3s ease-out;
     transform: skewX(-45deg) scale(1, 1);
+}
+
+@media screen and (max-width: 1450px) {
+    .app__projects-card-container {
+        width: 40vw;
+    }
+    .tags span {
+        font-size: 1rem;
+        margin: 0.25rem;
+        color: white;
+    }
 }
 
 @media screen and (max-width: 1050px) {

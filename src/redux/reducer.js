@@ -1,5 +1,6 @@
 const initialState = {
-    language: "en"
+    language: "en",
+    menu: false
 };
 
 function rootReducer(state = initialState, { type }) {
@@ -12,6 +13,13 @@ function rootReducer(state = initialState, { type }) {
 
             return {
                 language: language === "en" ? "es" : "en"
+            }
+
+        case "CHANGE_MENU":
+
+            return {
+                ...state,
+                menu: !state.menu
             }
 
         default:

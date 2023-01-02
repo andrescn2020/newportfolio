@@ -3,3 +3,9 @@ export function changeLanguage() {
         type: "CHANGE_LANGUAGE"
     };
 };
+
+export function changeMenu() {
+    return {
+        type: "CHANGE_MENU"
+    };
+};

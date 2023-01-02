@@ -1,18 +1,19 @@
 import "./Navbar.css";
 import Logo from "../../assets/Logo.png";
-import { useState } from "react";
 import { IoMenuSharp, IoClose } from "react-icons/io5";
 import useScreenSize from "../../hooks/useScreenSize";
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
+import { changeMenu } from "../../redux/actions";
 
 function Navbar() {
 
+  const dispatch = useDispatch();
   const language = useSelector((state) => state.language);
+  const menu = useSelector((state) => state.menu);
   const { width } = useScreenSize();
-  const [menu, setMenu] = useState(false);
 
   const handleMenu = () => {
-    setMenu(!menu);
+    dispatch(changeMenu());
   };
 
   const Menu = () => {
@@ -87,7 +88,7 @@ function Navbar() {
       {menu &&
         <div className="app__navbar-hamburguer">
           <ul className="app__navbar-hamburguer-list">
-            <a href="#proyectos">
+            <a href="#proyectos" onClick={handleMenu}>
               <li>{language === "en" ? "PROJECTS" : "PROYECTOS"}</li>
             </a>
             <a href="#sobremi">
