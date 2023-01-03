@@ -16,7 +16,7 @@ export const proyectos = [
         image: '/images/progevents.PNG',
         tags: ['React', "Redux", "AWS", "Figma"],
         deployPage: 'https://progevents.vercel.app/',
-        github: ''
+        github: 'https://github.com/andrescn2020/progevents-front'
     },
     {
         id: 2,
@@ -74,7 +74,7 @@ export const projects = [
         image: '/images/progevents.PNG',
         tags: ['React', "Redux", "AWS", "Figma"],
         deployPage: 'https://progevents.vercel.app/',
-        github: ''
+        github: 'https://github.com/andrescn2020/progevents-front'
     },
     {
         id: 2,
