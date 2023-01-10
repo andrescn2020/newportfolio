@@ -26,6 +26,7 @@ function Navbar() {
         <IoMenuSharp className="hamburguer-icon" onClick={handleMenu} />
       );
     } else {
+      console.log("entre aca", menu);
       return (
         <div id="navbar" className="app__navbar-hamburguer">
           <ul className="app__navbar-hamburguer-list">
@@ -47,7 +48,7 @@ function Navbar() {
           </ul>
         </div>
       );
-    }
+    } 
   };
 
   return (
@@ -74,7 +75,7 @@ function Navbar() {
             </a>
           </ul>
         </div>
-        <Menu />
+        {width < 1051 && <Menu />}
 
         <div className="app__navbar-icons">
           <a href="https://www.linkedin.com/in/andrescapano/" target="_blank" rel="noopener noreferrer">

@@ -39,6 +39,10 @@
     margin-right: 3rem;
     text-decoration: none;
     list-style: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .app__navbar-list a:hover {

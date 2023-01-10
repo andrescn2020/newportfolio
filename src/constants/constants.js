@@ -20,7 +20,7 @@ export const proyectos = [
     },
     {
         id: 2,
-        title: 'E-Commerce Smartify',
+        title: 'E-Commerce Smartify (Mantenimiento)',
         description: "En este proyecto, junto a un equipo, desarrollamos un e-commerce para la venta de celulares.",
         image: '/images/Smartify.PNG',
         tags: ['React', "Firebase", "Express", "SQL", "Node", "Bootstrap"],
@@ -29,7 +29,7 @@ export const proyectos = [
     },
     {
         id: 3,
-        title: 'Videogames APP',
+        title: 'Videogames APP (Mantenimiento)',
         description: "Aplicación para conseguir información detallada de videojuegos.",
         image: '/images/Videogames.PNG',
         tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
@@ -38,7 +38,7 @@ export const proyectos = [
     },
     {
         id: 4,
-        title: 'Countries APP',
+        title: 'Countries APP (Mantenimiento)',
         description: "Aplicación para consultar información sobre países de todo el mundo.",
         image: '/images/Countries.PNG',
         tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
@@ -78,7 +78,7 @@ export const projects = [
     },
     {
         id: 2,
-        title: 'E-Commerce Smartify',
+        title: 'E-Commerce Smartify (Maintenance)',
         description: "In this project, together with a team, we developed an e-commerce for the sale of cell phones.",
         image: '/images/Smartify.PNG',
         tags: ['React', "Firebase", "Express", "SQL", "Node", "Bootstrap"],
@@ -87,7 +87,7 @@ export const projects = [
     },
     {
         id: 3,
-        title: 'Videogames APP',
+        title: 'Videogames APP (Maintenance)',
         description: "Application to get detailed information about video games.",
         image: '/images/Videogames.PNG',
         tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
@@ -96,7 +96,7 @@ export const projects = [
     },
     {
         id: 4,
-        title: 'Countries APP',
+        title: 'Countries APP (Maintenance)',
         description: "Application to consult information about countries around the world.",
         image: '/images/Countries.PNG',
         tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],

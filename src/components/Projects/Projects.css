@@ -19,6 +19,10 @@
     margin-bottom: 5%;
     color: #202020;
     font-size: 7rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .app__projects-container {
@@ -72,6 +76,10 @@
     margin: 1rem;
     padding-left: 5%;
     padding-top: 0.5rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .app__projects-text-container h4 {
@@ -83,6 +91,10 @@
     width: 90%;
     padding-left: 7%;
     margin: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .app__projects-text-container div {
@@ -99,27 +111,11 @@
     font-size: 1.25rem;
     margin: 0.25rem;
     color: white;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-
-/* .app__projects-text-container div a button {
-    margin: 1rem;
-    font-size: 1.5rem;
-    width: 12rem;
-    height: 3rem;
-    border-width: 0.1rem;
-    color: #202020;
-    border-color: rgba(255, 255, 255, 1);
-    font-weight: bold;
-    border-radius: 1rem;
-    box-shadow: 0px 1px 0px 0px #1c1b18;
-    background: #FFDC53;
-}
-
-.app__projects-text-container div a button:hover {
-    cursor: pointer;
-    background: #202020;
-    color: white;
-} */
 
 .app__projects-text-container div a button {
     margin: 1rem;

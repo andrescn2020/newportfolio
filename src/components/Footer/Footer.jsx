@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="app__footer-third-column">
         <h2>{language === "en" ? "Contact" : "Contacto"}</h2>
         <a href="mailto:andrescn_2022@outlook.com">
-          <p>andrescn_2022@outlook.com</p>
+          <p className='mail'>andrescn_2022@outlook.com</p>
         </a>
         <p>Buenos Aires, Argentina</p>
       </div>

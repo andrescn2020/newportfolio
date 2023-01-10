@@ -26,6 +26,10 @@
     font-size: 2rem;
     margin-bottom: 3rem;
     margin-top: 0rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .app__hero-link-container {
