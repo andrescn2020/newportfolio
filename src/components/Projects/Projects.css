@@ -224,4 +224,9 @@
         width: 90vw;
     }
 
+    .app__projects-text-container div a button {
+        
+        margin-top: 1.5rem;
+
+    }
 }
