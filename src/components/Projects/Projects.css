@@ -110,6 +110,7 @@
 .tags span {
     font-size: 1.25rem;
     margin: 0.25rem;
+    margin-top: 1rem;
     color: white;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -119,6 +120,7 @@
 
 .app__projects-text-container div a button {
     margin: 1rem;
+    margin-top: 1.75rem;
     font-size: 1.5rem;
     width: 12rem;
     height: 3rem;
