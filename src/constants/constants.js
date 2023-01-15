@@ -20,11 +20,11 @@ export const proyectos = [
     },
     {
         id: 2,
-        title: 'E-Commerce Smartify (Mantenimiento)',
+        title: 'E-Commerce Smartify',
         description: "En este proyecto, junto a un equipo, desarrollamos un e-commerce para la venta de celulares.",
         image: '/images/Smartify.PNG',
         tags: ['React', "Firebase", "Express", "SQL", "Node", "Bootstrap"],
-        deployPage: '',
+        deployPage: 'https://smartify.vercel.app/',
         github: 'https://github.com/FinalProyectHenry25a/FinalProyect25a'
     },
     {
@@ -78,11 +78,11 @@ export const projects = [
     },
     {
         id: 2,
-        title: 'E-Commerce Smartify (Maintenance)',
+        title: 'E-Commerce Smartify',
         description: "In this project, together with a team, we developed an e-commerce for the sale of cell phones.",
         image: '/images/Smartify.PNG',
         tags: ['React', "Firebase", "Express", "SQL", "Node", "Bootstrap"],
-        deployPage: '',
+        deployPage: 'https://smartify.vercel.app/',
         github: 'https://github.com/FinalProyectHenry25a/FinalProyect25a'
     },
     {
