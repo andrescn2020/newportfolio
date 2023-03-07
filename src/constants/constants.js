@@ -24,7 +24,7 @@ export const proyectos = [
         description: "En este proyecto, junto a un equipo, desarrollamos un e-commerce para la venta de celulares.",
         image: '/images/Smartify.PNG',
         tags: ['React', "Firebase", "Express", "SQL", "Node", "Bootstrap"],
-        deployPage: 'https://smartify.vercel.app/',
+        deployPage: '',
         github: 'https://github.com/FinalProyectHenry25a/FinalProyect25a'
     },
     {
